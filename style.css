@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+
+
+
+/* Reset de estilos */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Container */
+  .container {
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  /* Header */
+  header {
+    height: 100vh;
+  }
+
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; 
+  }
+  header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #181818;
+    height: 60px;
+  }
+  
+  header .logo {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+
+  }
+  span{
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+  }
+  .bx{
+    color: #ffffff;
+
+    
+  }
+  
+  #menu-icon{
+    font-size: 42px;
+    z-index: 10001;
+    cursor: pointer;
+    margin-left: 25px;
+    display:none;
+  }
+  #close-icon {
+    font-size: 42px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    display: none;
+    color: #fff;
+    z-index: 1;
+  }
+    
+
+  header nav {
+    display: inline-block;
+    
+  }
+
+  
+  header nav ul {
+    margin: 0 20px;
+    padding: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+  }
+  
+  header nav ul li a {
+    color: white;
+    letter-spacing: 0.37px;
+    text-decoration: none;
+    margin-right: 24px;
+    font-size: 14px;
+  }
+  .right-content{
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+  header .hero {
+    color: white;
+    max-width: 590px;
+    margin-left: 150px;
+  }
+  
+  header .hero h1 {
+    margin-top: 100px;
+    font-size: 15px;
+  }
+  
+  header .hero h2.design {
+    margin-top: 0;
+    font-size: 50px;
+    margin-bottom: 29px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+  }
+  
+  header .hero p {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  header .hero .button-nav {
+    color: rgb(57, 54, 54);
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 2px solid #ffffff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Section Hear From */
+ 
+  section.hear-from {
+    text-align: center;
+    padding: 100px;
+    margin: auto;
+    width: 800px;
+  }
+  
+  section.hear-from h2 {
+    font-size: 1.5vw;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+  }
+  
+  section.hear-from p {
+    font-size: 1vw;
+    letter-spacing: 0.80px;
+    line-height: 50px;
+  }
+  
+  section.hear-from p a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+  
+  /*button*/
+  button{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(0, 0, 0);
+    margin-top: 25px;
+    padding: 8px 20px;
+    border: 1px solid #010101;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+  
+  /* Section Working */
+  section.working {
+    background: #f3f3f3;
+    height: 550px;
+  }
+  
+  section.working img {
+    width: 50%;
+    height: 100%;
+    float: right;
+  }
+  
+  section.working .text {
+    text-align: justify;
+    margin-left: 10vw;
+    width: 35%;
+    padding: 20px;
+  }
+  
+  section.working h1 {
+    font-size: 1vw;
+  }
+  
+  section.working h2.a {
+    font-size: 3vw;
+    margin: 0 0 30px;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+  }
+  
+  section.working p.b {
+    font-size: 1vw;
+    font-weight: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+  section button.latest  a  {
+    text-decoration: none;
+    color: rgb(57, 54, 54);
+
+  }
+
+    
+  /* Section Our Process */
+  section.our-process {
+    margin: 100px;
+  }
+  
+  section.our-process h1 {
+    text-align: center;
+    font-size: 1vw;
+    margin: 5px;
+  }
+  
+  section.our-process h2.c {
+    font-size: 2vw;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+  }
+  
+  section.our-process .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  section.our-process .icon {
+    margin-top: 50px;
+    padding: 10px;
+  }
+  
+  section.our-process .icon .icon-picture img {
+    width: 30px;
+    position: relative;
+    padding-left: 45%;
+  }
+  
+  section .icon-info h4 {
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 2px;
+  }
+  
+  section .icon-info p {
+    text-align: center;
+    font-size: 1vw;
+    letter-spacing: 1px;
+  }
+  
+  /* Section Amazing */
+  section.amazing {
+    background: #f3f3f3;
+    height: 550px;
+    display: flex;
+  }
+  
+  section.amazing img {
+    width: 50%;
+    height: 100%;
+  }
+  
+  section.amazing .text {
+    width: 590px;
+    text-align: justify;
+    padding: 20px;
+  }
+  
+  section.amazing h1 {
+    font-size: 1vw;
+  }
+  
+  section.amazing h2.a {
+    font-size: 3vw;
+    margin: 0 0 30px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  section.amazing p.b {
+    font-size: 1vw;
+    font-weight: normal;
+  }
+  
+  /* Section Want */
+  section.want {
+    margin: auto;
+    padding: 100px;
+    width: 800px;
+    text-align: center;
+  }
+  
+  section.want h1 {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 5px;
+    font-weight: normal;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  section.want .c {
+    text-align: center;
+    font-size: 1vw;
+    margin: 5px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-top: 40px;
+  }
+  button a{
+    text-decoration: none;
+    color: #ffffff;
+  }
+  button.start {
+    text-decoration: none;
+    background-color: rgba(1, 1, 1, 0.978);
+    border: 1px solid #010101;
+    padding: 12px 20px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 1vw;
+    letter-spacing: 2px;
+    
+    
+  }
+  
+  /* Footer */
+  footer {
+    margin: auto;
+    text-align: center;
+  }
+  
+  footer hr {
+    border: none;
+    border-top: 1px solid #e3e3e339;
+  }
+  
+  footer .logo {
+    margin: auto;
+    padding: 30px;
+  }
+  
+  footer nav {
+    display: inline-block;
+  }
+  
+  footer nav ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer nav ul li {
+    display: inline-block;
+  }
+  
+  footer nav ul li a {
+    color: rgb(14, 14, 14);
+    letter-spacing: 0.37px;
+    text-decoration: none;
+    margin-right: 24px;
+    font-size: 14px;
+  }
+
+  footer .copyright-text {
+    color: rgb(132, 131, 131);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    letter-spacing: 0.4px;
+    line-height: 22px;
+}
+ /* services*/
+ section.service {
+  padding: 10px;
+  width: 75vw;
+  
+}
+ .gallery-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 2vw;
+  padding: 0 1vw;
+ 
+}
+.gallery-items{
+  width: 340px;
+  height: 300px;
+}
+.gallery-items img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5%;
+  box-shadow: 5px 5px 5px black;
+}
+/*ABOUT*/
+.about {
+  height: 50vh;
+}
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
+  z-index: -1; 
+
+}
+header .about {
+  color: white;
+  margin: auto;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+header .about h1  {
+  z-index: 2;
+  font-size: 40px;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  
+
+}
+header .about p {
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.about-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.about-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.values-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.values-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.values-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.values-section li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.services-section {
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.services-section h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.services-section ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.services-section li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+
+@media(max-width: 1370px){
+  section.working {
+    height: 400px;
+  }
+section.amazing {
+  height: 400px;
+  }
+
+}
+@media(max-width: 1150px){
+  header .hero {
+    margin-top: 300px;
+  }
+  header .hero p {
+    font-size: 15px;
+  }
+  section.working .text {
+    margin-left: 100px;
+  }
+}
+@media(max-width: 950px){
+    #menu-icon{
+      display: block;
+    }
+    .navlist{
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100vh;
+      padding: 100px 50px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 100%;
+      flex-direction: column;
+      backdrop-filter: blur(32px);
+      transition: all .6s ease-in-out;
+      z-index: 1;
+    }
+    .navlist a{
+      display: block;
+      padding: 0;
+      margin: 0px 0px 25px 0px;
+      font-size: 1.5rem;
+    }
+    .navlist{
+      left:0;
+    }
+    
+    section.working p.b {
+      font-size: 1.4vw;
+    }
+    section.amazing p.b {
+      font-size: 1.4vw;
+    }
+
+
+}
+
+@media(max-width: 920px){
+
+  section.hear-from {
+    padding-top: 100px;
+    width: 500px;
+  }
+  section.hear-from h2 {
+    font-size: 2.2vw;
+  }
+  section.hear-from p {
+    font-size: 1.2vw;
+  }
+  section.working h1 {
+    font-size: 1.2vw;
+  }
+  section.our-process h1 {
+    font-size: 1.2vw;
+  }
+  section.our-process h2.c {
+    font-size: 2.2vw;
+  }
+  section .icon-info p {
+    font-size: 1.3vw;
+  }
+  section.amazing h1 {
+    font-size: 1.2vw;
+  }
+  section.want {
+    padding-top: 100px;
+    width: 500px;
+  }
+  section.want h1 {
+    font-size: 2vw;
+  }
+  section.want .c {
+    font-size: 1.2vw;
+}
+ 
+
+}
+@media(max-width: 750px){
+  header .container {
+    max-width: 100%;
+  }
+  section.hear-from {
+    padding-top: 100px;
+    width: 500px;
+  }
+  section.hear-from p {
+    font-size: 1.5vw; 
+  }
+  section.amazing img {
+    width: 60%;
+  }
+  section.working h1 {
+    font-size: 1.5vw;
+  }
+  section.working p.b {
+    font-size: 1.7vw;
+  }
+  section.working .text {
+   margin-left: 0px;
+  }
+  section.working img {
+    width: 60%;
+  }
+  section.our-process .container {
+    display: grid;
+  }
+  section.our-process h1 {
+    font-size: 1.5vw;
+  }
+  section.our-process h2.c {
+    font-size: 2.5vw;
+  }
+  section.amazing h1 {
+    font-size: 1.5vw;
+  }
+  section .icon-info p {
+    font-size: 1.4vw;
+  }
+  section.amazing p.b {
+    font-size: 1.7vw;
+  }
+  section.want {
+    padding-top: 100px;
+    width: 500px;
+  }
+  section.want h1 {
+    font-size: 2.5vw;
+  }
+  section.want .c {
+    font-size: 1.5vw;
+  }
+  button.start {
+    font-size: 1.5vw;
+  }
+}
+@media(max-width: 570px){
+  header .hero {
+    margin-left: 50px;
+  }
+  section.hear-from {
+    width: auto;
+  }
+  section.hear-from h2 {
+    font-size: 2.5vw;
+  }
+  section.hear-from p {
+    font-size: 1.9vw;
+  }
+  section.working {
+    height: 350px;
+  }
+  button {
+    margin-top: 0px;
+  }
+  section.working .text {
+    transform: translateX(15%);
+    width: auto;
+    padding: 10px;
+  }
+  section.working img {
+    transform: translateX(30%);
+    clip-path: inset(0 30% 0 0);
+    overflow: hidden;
+
+  }
+  section.working h1 {
+    font-size: 1.9vw;
+  }
+  section.working h2.a {
+    font-size: 3.5vw;
+  }
+  section.working p.b {
+    font-size: 1.9vw;
+  }
+  section.our-process h1 {
+    font-size: 1.9vw;
+  }
+  section .icon-info h4 {
+    font-size: 1.5vw;
+  }
+  section .icon-info p {
+    font-size: 1.9vw;
+  }
+  section.amazing {
+    height:350px;
+
+  }
+  section.amazing h1 {
+    font-size: 1.9vw;
+  }
+  section.amazing h2.a {
+    font-size: 3.5vw;
+  }
+  section.amazing p.b {
+    font-size: 1.9vw;
+  }
+  section.amazing {
+    height: 300px;
+  }
+  section.amazing .text {
+    margin-left: -70px;
+    width: auto;
+    padding: 10px;
+  }
+  section.amazing img {
+    transform: translateX(-30%);
+    clip-path: inset(0 0 0 30%);
+    overflow: hidden;
+    width: 400%;
+  }
+  section.want {
+    width: auto;
+  }
+  section.want .c {
+    font-size: 1.9vw;
+  }
+}
+
